@@ -9,7 +9,7 @@ var participantList = ''; /* List of participants */
  * Initialize Map
  */
 L.mapbox.accessToken = 'pk.eyJ1IjoiYW5keS1ydXRrb3dza2kiLCJhIjoiWDJRMFVUWSJ9.iHl6Cf0M79wmHQlfP6Bk8Q';
-var mymap = L.map('map').setView([34.0522, -118.2437], 9);
+var mymap = L.map('map').setView([53.1201552,8.5962044], 9);
 L.mapbox.styleLayer('mapbox://styles/andy-rutkowski/cjsp2c14p04zj1fmetikh16km').addTo(mymap); // base layer
 
 var overlayMaps = {
